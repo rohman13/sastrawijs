@@ -1,41 +1,54 @@
 {
-  "name": "sastrawijs",
-  "version": "1.0.2",
+  "_from": "sastrawijs@^1.0.3",
+  "_id": "sastrawijs@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-AmnCwZ+7D5vB1teqtGLXggnV9nDSyP5QOa8De3dbwN8KIBWDBcBMWYFVHnSjBhMfb/P0F/NI73gdkR9MvGpixg==",
+  "_location": "/sastrawijs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "sastrawijs@^1.0.3",
+    "name": "sastrawijs",
+    "escapedName": "sastrawijs",
+    "rawSpec": "^1.0.3",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/sastrawijs/-/sastrawijs-1.0.3.tgz",
+  "_shasum": "7d05be4edcb99a1ff1f194e17f15e685b8c22d12",
+  "_spec": "sastrawijs@^1.0.3",
+  "_where": "C:\\Users\\beno_\\OneDrive\\Dokumen\\Data Analytics 2021\\source\\da-4-arsip-ui",
+  "author": {
+    "name": "Damar Zaky"
+  },
+  "bugs": {
+    "url": "https://github.com/damzaky/sastrawijs/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Sastrawi is a simple javascript package which allows you to reduce inflected words in Indonesian Language (Bahasa Indonesia) to their base form (stem). Despite its simplicity, this library is designed to be high quality and well documented.",
-  "main": "dist/sastrawijs.cjs.js",
-  "module": "dist/sastrawijs.esm.js",
-  "browser": "dist/sastrawijs.umd.js",
-  "scripts": {
-    "build": "rollup -c",
-    "test": "jest"
+  "devDependencies": {
+    "mocha": "^2.4.5"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/damzaky/sastrawijs.git"
-  },
+  "homepage": "https://github.com/damzaky/sastrawijs#readme",
   "keywords": [
     "stemmer",
     "nlp",
     "indonesia"
   ],
-  "author": "Damar Zaky",
   "license": "SEE LICENSE IN LICENSE",
-  "bugs": {
-    "url": "https://github.com/damzaky/sastrawijs/issues"
+  "main": "index.js",
+  "name": "sastrawijs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damzaky/sastrawijs.git"
   },
-  "homepage": "https://github.com/damzaky/sastrawijs#readme",
-  "devDependencies": {
-    "@babel/core": "^7.8.4",
-    "@babel/preset-env": "^7.8.4",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-jest": "^23.8.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "jest": "^25.1.0",
-    "prettier": "^1.19.1",
-    "rollup": "^1.32.0",
-    "rollup-plugin-babel": "^4.3.3",
-    "rollup-plugin-terser": "^5.2.0"
-  }
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.0.3"
 }
