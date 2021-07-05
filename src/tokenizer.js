@@ -12,7 +12,7 @@ export default class Tokenizer {
     sent = sent.replace(/\S+@\S+/g, "");
     sent = sent.replace(/(@|#)\S+/g, "");
     sent = sent.replace(/&.*;/g, "");
-    sent = sent.replace(/[^a-z\s]/g, " ");
+    //sent = sent.replace(/[^a-z\s]/g, " ");
     sent = sent.replace(/\s+/g, " ");
     sent = sent
       .trim()
